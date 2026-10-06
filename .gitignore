@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large model files
+*.pt
+*.pth
+*.onnx
+
+# Generated videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Generated/output folders
+runs/
+results/
+uploads/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment/secrets
+.env
