@@ -1,33 +1,44 @@
-# Python
+.ipynb_checkpoints/
 __pycache__/
 *.py[cod]
-*.pyo
-.venv/
-venv/
-env/
 
-# Jupyter
-.ipynb_checkpoints/
-
-# Large model files
+# Large models
 *.pt
 *.pth
 *.onnx
 
-# Generated videos
+# Large/generated videos
 *.mp4
 *.avi
 *.mov
 *.mkv
 
-# Generated/output folders
+# Generated folders
 runs/
 results/
 uploads/
+
+# Python environments
+venv/
+.venv/
+env/
+
+# Secrets
+.env
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Environment/secrets
-.env
+# Model datasets / archives
+Model/*.zip
+
+# Model weights
+Model/*.pt
+
+# Large datasets
+Model/train/
+Model/valid/
+Model/Foggy_Cityscapes/
+Model/ext/
+
